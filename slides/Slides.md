@@ -4,94 +4,71 @@ theme: custom-default
 footer: 'https://example.com'
 ---
 
-# My Presentation
-![bg right](https://picsum.photos/800/600)
+![bg](img/colors.jpg)
+
+# Starting an Allyship Journey
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## Chris Ayers
 
 ---
 
-<!-- Speaker Notes -->
-## Slide 1
+![bg left:40%](./img/portrait.png)
 
-- Item 1
-- Item 2
-- Item 3
-<!-- Can have multiple on a slide -->
+## Chris Ayers
+### Senior Customer Engineer<br>Microsoft
 
----
-
-## Slide 2
-<!-- Can also do a multiline
-comment that will show in notes -->
-
-![Image](https://picsum.photos/800/600)
+<i class="fa-brands fa-x-twitter"></i> ~~Twitter~~ : @Chris\_L\_Ayers
+<i class="fa-brands fa-mastodon"></i> Mastodon: @Chrisayers@hachyderm.io
+<i class="fa-brands fa-linkedin"></i> LinkedIn: [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
+<i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)
+<i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
 
 ---
 
-## Slide 3
+# Ground Rules
 
-> This is a quote.
-
----
-
-## Slide 4
-
-| Column 1 | Column 2 |
-| -------- | -------- |
-| Item 1   | Item 2   |
-| Item 3   | Item 4   |
+- <i class="fa-solid fa-brain"></i> Open-Minded Respect
+- <i class="fa-solid fa-book-open"></i> Open-Minded Respect
+- <i class="fa-solid fa-ear-listen"></i> Active Listening
+- <i class="fa-solid fa-user"></i> Personal Expression
+- <i class="fa-solid fa-scale-balanced"></i> Balanced Participation
+- <i class="fa-solid fa-square-person-confined"></i> Embrace Discomfort
 
 ---
 
-![bg opacity](https://picsum.photos/800/600?image=53)
-## Slide 5
+![bg right](img/owl.png)
+# Questions?
+
+---
 
 <div class="columns">
 <div>
 
-## Left
+## Resources
 
-- 1
-- 2
+#### GitHub Repo
+#### https://github.com/codebytes/dotnet-configuration-in-depth
+
+#### Blog
+#### https://chris-ayers.com
 
 </div>
+
 <div>
 
-## Right
+## Contact
 
-- 3
-- 4
+<i class="fa-brands fa-twitter"></i> Twitter: @Chris\_L\_Ayers
+<i class="fa-brands fa-mastodon"></i> Mastodon: @Chrisayers@hachyderm.io
+<i class="fa-brands fa-linkedin"></i> LinkedIn: - [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
+<i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)
+<i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
 
 </div>
-</div>
-
----
-
-## Slide 6
-
-<i class="fa-brands fa-twitter"></i> Twitter: 
-<i class="fa-brands fa-mastodon"></i> Mastodon: 
-<i class="fa-brands fa-linkedin"></i> LinkedIn: 
-<i class="fa fa-window-maximize"></i> Blog: 
-<i class="fa-brands fa-github"></i> GitHub: 
-
----
-
-# <!--fit--> Large Text
-
----
-
-<!-- Needed for mermaid, can be anywhere in file except frontmatter -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-# Mermaid
-
-<div class="mermaid">
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
 </div>
