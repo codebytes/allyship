@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: custom-default
-footer: 'https://example.com'
+footer: 'https://chris-ayers.com/'
 ---
 
 ![bg](img/colors.jpg)
@@ -21,7 +21,7 @@ footer: 'https://example.com'
 ![bg left:40%](./img/portrait.png)
 
 ## Chris Ayers
-### Principal Software Engineer<br>Microsoft
+### Principal Software Engineer<br>Azure EngOps AzRel<br>Microsoft
 
 <i class="fa-brands fa-x-twitter"></i> ~~Twitter~~ : @Chris\_L\_Ayers
 <i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
