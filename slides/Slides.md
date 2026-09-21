@@ -24,7 +24,7 @@ footer: 'https://example.com'
 ### Principal Software Engineer<br>Microsoft
 
 <i class="fa-brands fa-x-twitter"></i> ~~Twitter~~ : @Chris\_L\_Ayers
-<i class="fa-brands fa-mastodon"></i> Mastodon: @Chrisayers@hachyderm.io
+<i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
 <i class="fa-brands fa-linkedin"></i> LinkedIn: [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
 <i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)
 <i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
@@ -53,7 +53,7 @@ footer: 'https://example.com'
 ## Resources
 
 #### GitHub Repo
-#### https://github.com/codebytes/dotnet-configuration-in-depth
+#### https://github.com/codebytes/allyship
 
 #### Blog
 #### https://chris-ayers.com
@@ -64,8 +64,8 @@ footer: 'https://example.com'
 
 ## Contact
 
-<i class="fa-brands fa-twitter"></i> Twitter: @Chris\_L\_Ayers
-<i class="fa-brands fa-mastodon"></i> Mastodon: @Chrisayers@hachyderm.io
+<i class="fa-brands fa-twitter"></i> Twitter: [@Chris\_L\_Ayers](https://twitter.com/Chris_L_Ayers)
+<i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
 <i class="fa-brands fa-linkedin"></i> LinkedIn: - [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
 <i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)
 <i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
