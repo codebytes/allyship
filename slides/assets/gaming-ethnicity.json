@@ -1,0 +1,19 @@
+{
+  "type": "bar",
+  "title": "Ethnicity of preset characters",
+  "description": "DiamondLobby reports 61.2% white and 38.8% all other ethnicities combined among human or human-like characters in its historical sample. The ethnic subsample size is not reported.",
+  "width": 800,
+  "height": 460,
+  "yLabel": "Characters (%)",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Human / human-like characters (%)",
+    "color": "#c4b5fd",
+    "values": [
+      { "label": "White", "value": 61.2 },
+      { "label": "All others", "value": 38.8 }
+    ]
+  }]
+}

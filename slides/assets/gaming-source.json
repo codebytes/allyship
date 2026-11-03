@@ -1,0 +1,19 @@
+{
+  "title": "Diversity in Gaming: An Analysis of Video Game Characters",
+  "publisher": "DiamondLobby",
+  "author": "Brittney Lin",
+  "url": "https://diamondlobby.com/geeky-stuff/diversity-in-gaming/",
+  "reportYear": 2021,
+  "pageUpdated": "2023-02-22",
+  "gameReleaseYears": [2017, 2021],
+  "games": 93,
+  "characters": 810,
+  "limitations": [
+    "Selected major releases, not a random sample or a current industry census.",
+    "Games with only fully customizable characters were excluded.",
+    "The 5.8% category combines non-binary characters and undocumented gender; it cannot estimate either group separately.",
+    "Ethnicity covers only human or human-like characters; its subsample size is not stated.",
+    "All other ethnicities combined hides differences between groups.",
+    "The study's categories are reported as published, not proposed as an identity taxonomy."
+  ]
+}

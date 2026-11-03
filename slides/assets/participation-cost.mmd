@@ -1,0 +1,9 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#171d30","primaryColor":"#232d46","primaryTextColor":"#f4f3ee","primaryBorderColor":"#82e4ce","lineColor":"#bec7dc","secondaryColor":"#232d46","tertiaryColor":"#171d30","fontFamily":"Arial","fontSize":"25px"},"flowchart":{"htmlLabels":false,"curve":"linear","nodeSpacing":35,"rankSpacing":45}}}%%
+flowchart LR
+  accTitle: The same invitation can carry different costs
+  accDescr: Illustrative event planning comparison, not measured durations. With direct booking, an invitation leads to booking and participation. With reimbursement, a participant pays first, waits for repayment, and carries the financial risk before participation.
+  A["Same invitation"] --> B["Organizer books travel"] --> C["Participate"]
+  A --> D["Pay up front"] --> E["Wait for reimbursement"] --> F["Carry the financial risk"]
+  F --> C
+  classDef friction fill:#302a48,stroke:#c4b5fd,color:#f4f3ee
+  class D,E,F friction

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chart-title chart-desc" viewBox="0 0 1100 460" width="1100" height="460">
+<title id="chart-title">Women on screen and behind the camera</title><desc id="chart-desc">USC Annenberg, 100 top films of 2025: women and girls were 33.6% of speaking characters. Women were 8.2% of directors, 24.4% of writers, and 8.5% of composers. Each bar has a different role-specific denominator; these are not shares of a single pool.</desc>
+<rect width="1100" height="460" fill="#171d30"/>
+<g fill="#f4f3ee" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+<text x="30" y="46" font-size="30" font-weight="700">Women on screen and behind the camera</text>
+<text x="30" y="78" font-size="18">Women / girls (%)</text>
+<line x1="285" y1="105" x2="285" y2="380" stroke="#465169"/>
+<text x="285" y="408" text-anchor="middle" font-size="18">0</text>
+<line x1="468.75" y1="105" x2="468.75" y2="380" stroke="#465169"/>
+<text x="468.75" y="408" text-anchor="middle" font-size="18">10</text>
+<line x1="652.5" y1="105" x2="652.5" y2="380" stroke="#465169"/>
+<text x="652.5" y="408" text-anchor="middle" font-size="18">20</text>
+<line x1="836.25" y1="105" x2="836.25" y2="380" stroke="#465169"/>
+<text x="836.25" y="408" text-anchor="middle" font-size="18">30</text>
+<line x1="1020" y1="105" x2="1020" y2="380" stroke="#465169"/>
+<text x="1020" y="408" text-anchor="middle" font-size="18">40</text>
+<text x="265" y="147.375" text-anchor="end" font-size="24">Speaking characters</text>
+<rect x="285" y="125.375" width="617.4000000000001" height="28" rx="3" fill="#c4b5fd"/>
+<text x="912.4000000000001" y="147.375" font-size="25" font-weight="700">33.6</text>
+<text x="265" y="216.125" text-anchor="end" font-size="24">Directors</text>
+<rect x="285" y="194.125" width="150.67499999999995" height="28" rx="3" fill="#c4b5fd"/>
+<text x="445.67499999999995" y="216.125" font-size="25" font-weight="700">8.2</text>
+<text x="265" y="284.875" text-anchor="end" font-size="24">Writers</text>
+<rect x="285" y="262.875" width="448.3499999999999" height="28" rx="3" fill="#c4b5fd"/>
+<text x="743.3499999999999" y="284.875" font-size="25" font-weight="700">24.4</text>
+<text x="265" y="353.625" text-anchor="end" font-size="24">Composers</text>
+<rect x="285" y="331.625" width="156.1875" height="28" rx="3" fill="#c4b5fd"/>
+<text x="451.1875" y="353.625" font-size="25" font-weight="700">8.5</text>
+<text x="652.5" y="444" text-anchor="middle" font-size="19">Share within each role (%)</text>
+</g></svg>

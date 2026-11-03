@@ -1,0 +1,19 @@
+{
+  "type": "bar",
+  "title": "Past-year workplace discrimination",
+  "description": "Williams Institute 2024 report, summer 2023 survey of LGBTQ workers: 7% of White LGBTQ respondents and 15% of LGBTQ respondents of color reported discrimination in the past year. Self-reported discrimination, not the combined measure of discrimination or harassment.",
+  "width": 800,
+  "height": 460,
+  "yLabel": "Respondents in each group (%)",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Discrimination (%)",
+    "color": "#c4b5fd",
+    "values": [
+      { "label": "White LGBTQ", "value": 7 },
+      { "label": "LGBTQ of color", "value": 15 }
+    ]
+  }]
+}

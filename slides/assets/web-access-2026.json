@@ -1,0 +1,20 @@
+{
+  "type": "bar",
+  "title": "Common, detectable barriers",
+  "description": "WebAIM Million February 2026: 83.9% of tested home pages had low-contrast text, 53.1% had images missing alternative text, and 51% had form inputs missing labels. Categories overlap and automated checks find only a subset of accessibility problems.",
+  "width": 800,
+  "height": 460,
+  "yLabel": "Home pages with this error (%)",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Home pages (%)",
+    "color": "#82e4ce",
+    "values": [
+      { "label": "Low contrast", "value": 83.9 },
+      { "label": "Missing alt text", "value": 53.1 },
+      { "label": "Missing labels", "value": 51 }
+    ]
+  }]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "bar",
+  "title": "More likely to play?",
+  "description": "Geena Davis Institute / Nielsen, Ready Players All (2025): 62% agree that they are more likely to play a video game if the playable characters are diverse; 9% disagree; the remainder, calculated as 29%, neither agree nor disagree. U.S./U.K. gamers surveyed June 10-15, 2024. The short report does not state the sample size. Stated preference is not observed play or sales.",
+  "width": 800,
+  "height": 460,
+  "yLabel": "Respondents (%)",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Diverse playable characters",
+    "color": "#c4b5fd",
+    "values": [
+      { "label": "Agree", "value": 62 },
+      { "label": "Neither", "value": 29 },
+      { "label": "Disagree", "value": 9 }
+    ]
+  }]
+}
