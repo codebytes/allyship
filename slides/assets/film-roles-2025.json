@@ -1,0 +1,21 @@
+{
+  "type": "bar",
+  "title": "Women on screen and behind the camera",
+  "description": "USC Annenberg, 100 top films of 2025: women and girls were 33.6% of speaking characters. Women were 8.2% of directors, 24.4% of writers, and 8.5% of composers. Each bar has a different role-specific denominator; these are not shares of a single pool.",
+  "width": 1100,
+  "height": 460,
+  "yLabel": "Share within each role (%)",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Women / girls (%)",
+    "color": "#c4b5fd",
+    "values": [
+      { "label": "Speaking characters", "value": 33.6 },
+      { "label": "Directors", "value": 8.2 },
+      { "label": "Writers", "value": 24.4 },
+      { "label": "Composers", "value": 8.5 }
+    ]
+  }]
+}

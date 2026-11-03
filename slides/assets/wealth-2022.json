@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "title": "Median family net wealth / 2022",
+  "description": "Federal Reserve Survey of Consumer Finances: median net wealth in thousands of 2022 dollars, White 285.01, Black 44.89, Hispanic 61.62, Asian 536.02, and remaining racial groups 62.9. Group medians are not individual predictions.",
+  "width": 1100,
+  "height": 460,
+  "yLabel": "2022 USD (thousands)",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Median / $1,000",
+    "color": "#82e4ce",
+    "values": [
+      { "label": "White", "value": 285.01 },
+      { "label": "Black", "value": 44.89 },
+      { "label": "Hispanic", "value": 61.62 },
+      { "label": "Asian", "value": 536.02 },
+      { "label": "Remaining groups", "value": 62.9 }
+    ]
+  }]
+}

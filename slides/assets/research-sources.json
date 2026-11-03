@@ -1,0 +1,338 @@
+{
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "id": "esa-2026",
+      "title": "2026 Essential Facts About the U.S. Video Game Industry",
+      "publisher": "Entertainment Software Association / YouGov",
+      "url": "https://www.theesa.com/resources/essential-facts-about-the-us-video-game-industry/2026-data/",
+      "report": "https://www.theesa.com/wp-content/uploads/2026/06/2026-Essential-Facts-Booklet-05-27-26.pdf",
+      "pages": [6, 8, 41],
+      "fieldwork": "2026-02-11 to 2026-02-25",
+      "sample": {
+        "respondents": 13545,
+        "players": 9932,
+        "adultPlayers": 7971,
+        "childTeenPlayers": 1961,
+        "adultNonPlayers": 3613
+      },
+      "method": "20-minute online survey from YouGov's proprietary U.S. panel, weighted by age, gender, ethnicity, education, census region and player status. Household reporting estimates players as young as 5; players 8-17 answered under parental supervision.",
+      "metrics": {
+        "estimatedPlayersMillions": 212.3,
+        "averagePlayerAge": 37,
+        "malePercent": 53,
+        "femalePercent": 46,
+        "nonBinaryOrPreferNotToSayPercent": 1
+      },
+      "caveats": [
+        "Players are defined as playing at least one hour per week on any platform.",
+        "Population estimates are not respondent counts.",
+        "Non-binary and prefer not to say are combined and cannot be measured separately.",
+        "U.S. players are not a global population or a measure of game-character representation.",
+        "Do not interpret the contrast with DiamondLobby's 2017-2021 character sample as change over time."
+      ]
+    },
+    {
+      "id": "ready-players-all-2025",
+      "title": "Ready Players All: What Do Gamers Have to Say About Character Diversity?",
+      "publisher": "Geena Davis Institute / Nielsen Data for Good",
+      "url": "https://geenadavisinstitute.org/wp-content/uploads/2025/04/GDI-March-2025_Ready-Players-All_What-Do-Gamers-Have-to-Say-About-Character-Diversity.pdf",
+      "pages": [1, 2],
+      "publishedAt": "2025-03",
+      "fieldwork": "2024-06-10 to 2024-06-15",
+      "sample": {
+        "population": "U.S. and U.K. gamers in Nielsen's weekly Video Game Tracking",
+        "respondents": null
+      },
+      "metrics": {
+        "diversePlayableCharactersAgreePercent": 62,
+        "diversePlayableCharactersDisagreePercent": 9,
+        "diversePlayableCharactersNeitherPercent": 29
+      },
+      "caveats": [
+        "The short report does not state the sample size or a margin of error.",
+        "Neither agree nor disagree is calculated as the remainder: 100 minus 62 minus 9.",
+        "The 2025 publication reports 2024 fieldwork.",
+        "Stated preference is not observed play, purchasing behavior, a causal effect, or a character-representation census."
+      ]
+    },
+    {
+      "id": "women-at-work-2025",
+      "title": "Women in the Workplace 2025",
+      "publisher": "LeanIn.Org and McKinsey & Company",
+      "url": "https://leanin.org/report/women-in-the-workplace/",
+      "report": "https://leanin.org/media/documents/Women-in-the-Workplace-2025.pdf",
+      "pages": [5, 18, 50, 51, 52],
+      "sample": {
+        "participatingOrganizations": 124,
+        "approximateEmployeesSurveyed": 9500,
+        "hrLeaderInterviews": 62
+      },
+      "method": "Voluntary participating organizations across the U.S. and Canada. Pipeline data reflect 2024 personnel movements, averaged within industries and weighted to Fortune 500 industry composition. A separate third-party employee panel was surveyed in July-August 2025.",
+      "metrics": {
+        "entryLevelWomenWithSponsorPercent": 31,
+        "entryLevelMenWithSponsorPercent": 45,
+        "promotionIndex": {
+          "men": 100,
+          "womenOverall": 93,
+          "asianWomen": 82,
+          "latinas": 82,
+          "blackWomen": 60
+        }
+      },
+      "caveats": [
+        "A 2025 publication does not make the pipeline measures 2025 promotions.",
+        "Promotion indices compare rates normalized to men at 100; they are not percentages of all promotions.",
+        "Women overall includes the displayed subgroups; do not sum overlapping categories.",
+        "Sponsor percentages refer to entry-level survey respondents, not all employees.",
+        "Observational comparisons do not establish that sponsorship causes promotion.",
+        "The voluntary company sample has higher women's representation than typical participating companies in 2021-2024; it is not a census of workplaces."
+      ]
+    },
+    {
+      "id": "disability-at-work-2024",
+      "title": "Disability Inclusion @ Work 2024: A Global Outlook",
+      "publisher": "Deloitte Global",
+      "url": "https://www.deloitte.com/global/en/issues/work/content/disability-inclusion-at-work.html",
+      "methodologyUrl": "https://www.deloitte.com/cbc/en/about/press-room/deloittes-first-disability-inclusion-work-2024.html",
+      "publishedAt": "2024-12-03",
+      "fieldwork": "January-April 2024",
+      "sample": {
+        "respondents": 10000,
+        "countries": 20
+      },
+      "metrics": {
+        "missedWorkEventDueToAccessPercent": 60
+      },
+      "caveats": [
+        "Full- or part-time employed respondents with disabilities, chronic health conditions or neurodivergence, including people reporting activity difficulties without self-identifying.",
+        "Self-reported experiences; not 60% of all workers or of all events.",
+        "The photo is illustrative; the people pictured are not identified as respondents.",
+        "This is a 2024 study, not a 2026 estimate."
+      ]
+    },
+    {
+      "id": "scf-2022",
+      "title": "Greater Wealth, Greater Uncertainty: Changes in Racial Inequality in the Survey of Consumer Finances",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html",
+      "dataUrl": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-accessible-20231018.htm",
+      "publishedAt": "2023-10-18",
+      "fieldwork": "2022 Survey of Consumer Finances",
+      "sample": { "population": "U.S. families; survey estimates, not individual-level predictions" },
+      "metrics": {
+        "medianNetWealthThousands2022Usd": { "white": 285.01, "black": 44.89, "hispanic": 61.62, "asian": 536.02, "remainingGroups": 62.9 },
+        "medianPlusOneStandardError": [297.19, 56.09, 71.76, 632.98, 70.87],
+        "medianMinusOneStandardError": [272.81, 33.71, 51.44, 439.02, 54.93]
+      },
+      "caveats": [
+        "Wealth is assets minus liabilities, not income or personal worth.",
+        "Dollar values are in thousands of 2022 dollars, not current nominal dollars.",
+        "All five published groups are retained; remaining groups include Native American, Alaska Native, Native Hawaiian, Pacific Islander, other race, and multiple-race families.",
+        "2022's oversample first allowed a separate Asian estimate; broad categories hide substantial within-group differences.",
+        "The chart shows survey point estimates, not uncertainty intervals. The adjacent arrays retain the source's plus/minus one standard-error endpoints in the same group order."
+      ]
+    },
+    {
+      "id": "shed-2025",
+      "title": "Economic Well-Being of U.S. Households in 2025",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-savings-investments.htm",
+      "methodologyUrl": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-description.htm",
+      "publishedAt": "2026-05",
+      "fieldwork": "2025-10-17 to 2025-10-28",
+      "sample": { "completed": 13099, "finalRespondents": 12934, "population": "U.S. adults age 18 and older" },
+      "method": "Probability-based Ipsos KnowledgePanel online survey, with post-stratification weights. Cumulative response rate 4.1%. Devices and internet access provided to recruited panel members who needed them.",
+      "metrics": { "wouldUseCashEquivalentFor400Percent": 63, "couldNotPay400ByAnyMeansPercent": 12 },
+      "caveats": [
+        "A hypothetical $400 emergency, not observed spending.",
+        "Cash equivalent includes a credit card paid off at the next statement.",
+        "The 37% who would not exclusively use cash are not all unable to pay; payment choice does not establish cash availability.",
+        "The 63% and 12% figures are not complementary response categories.",
+        "Final analytic sample differs from the number completing the survey."
+      ]
+    },
+    {
+      "id": "williams-workplace-2024",
+      "title": "LGBTQ People's Experiences of Workplace Discrimination and Harassment",
+      "publisher": "Williams Institute, UCLA School of Law",
+      "url": "https://williamsinstitute.law.ucla.edu/publications/lgbt-workplace-discrimination/",
+      "report": "https://williamsinstitute.law.ucla.edu/wp-content/uploads/Workplace-Discrimination-Aug-2024.pdf",
+      "publishedAt": "2024-08",
+      "fieldwork": "Summer 2023",
+      "sample": { "respondents": 1902, "population": "LGBTQ adults in the workforce" },
+      "metrics": {
+        "pastYearDiscriminationPercent": { "whiteLgbtq": 7, "lgbtqOfColor": 15, "cisgenderLgbq": 9, "transgenderOrNonbinary": 22 },
+        "coveringAtCurrentJobPercent": 58
+      },
+      "caveats": [
+        "Self-reported experiences; descriptive group comparisons, not causal estimates.",
+        "Past-year discrimination is distinct from harassment, their combined measure, and lifetime experience.",
+        "Race and gender comparisons overlap; these are not four mutually exclusive groups or intersection-specific rates.",
+        "1,902 is the overall sample, not the size of any subgroup.",
+        "Covering refers to behavior at the current job to avoid harassment or discrimination; not every privacy choice is covering.",
+        "Higher reported discrimination among out respondents does not establish that disclosure causes discrimination.",
+        "Illustrative photographs do not depict identified survey respondents."
+      ]
+    },
+    {
+      "id": "usc-films-2026",
+      "title": "Inequality in 1,900 Popular Films",
+      "publisher": "Stacy L. Smith / USC Annenberg Inclusion Initiative",
+      "url": "https://assets.uscannenberg.org/aii/inequality1900films_080526.pdf",
+      "publishedAt": "2026-08",
+      "pages": [1, 2, 3],
+      "sample": { "filmsPerYear": 100, "years": "2007-2025", "films2025": 100, "speakingCharacters2025": 4333, "directors2025": 110 },
+      "method": "Content analysis of 100 top-performing U.S. theatrical films per year; excludes documentaries, television, and music videos. Displayed figures refer to 2025.",
+      "metrics": {
+        "womenOrGirlsSpeakingPercent": 33.6,
+        "womenDirectorsPercent": 8.2,
+        "womenWritersPercent": 24.4,
+        "womenComposersPercent": 8.5,
+        "womenDirectorsCount": 9,
+        "filmsMissingLgbtqCharacters": 78,
+        "filmsMissingDisabledCharacters": 49,
+        "filmsMissingDisabledGirlsOrWomen": 81
+      },
+      "caveats": [
+        "Character shares, creative-role shares, and film-level absence counts have different denominators.",
+        "The 2026 publication analyzes 2025 releases, not 2026 films.",
+        "Films and identity categories overlap; do not sum absence counts.",
+        "Presence counts do not measure depth, quality, agency, stereotypes, or working conditions.",
+        "This selected film sample is not a census of all media or a causal study of creative decisions.",
+        "Charts redraw published data; publisher graphics and report photography are not reproduced."
+      ]
+    },
+    {
+      "id": "webaim-million-2026",
+      "title": "The WebAIM Million: The 2026 Report",
+      "publisher": "WebAIM",
+      "url": "https://webaim.org/projects/million/",
+      "fieldwork": "February 2026",
+      "sample": { "homePages": 1000000, "selection": "Top home pages derived from the Tranco ranking" },
+      "method": "WAVE automated evaluation of rendered DOMs after scripts and styles.",
+      "metrics": { "detectedWcagFailurePercent": 95.9, "lowContrastPercent": 83.9, "missingAltTextPercent": 53.1, "missingFormLabelsPercent": 51 },
+      "caveats": [
+        "Percentages are of tested home pages, not of all websites, errors, or users.",
+        "Error categories overlap and must not be summed.",
+        "Automated checks detect only some failures. No detected errors does not establish accessibility or WCAG conformance."
+      ]
+    },
+    {
+      "id": "employer-experiment-2022",
+      "title": "Systemic Discrimination Among Large U.S. Employers",
+      "publisher": "Patrick Kline, Evan Rose, Christopher Walters / NBER; Quarterly Journal of Economics",
+      "url": "https://www.nber.org/papers/w29053",
+      "publishedAt": "2022",
+      "method": "Nationwide correspondence experiment randomizing application characteristics and racially associated names at large U.S. employers; NBER working paper first issued July 2021, revised May 2022.",
+      "sample": { "applicationsMoreThan": 83000, "employers": 108 },
+      "metrics": { "blackAssociatedNameContactPenaltyPercentagePoints": 2.1 },
+      "relatedReport": "https://www.nber.org/papers/w32313",
+      "caveats": [
+        "The randomized effect concerns name signals and employer contact, not a real person's race or job offers.",
+        "2.1 percentage points is not a 2.1% relative difference.",
+        "The employer effects varied; this is not a current rate for every employer.",
+        "The experiment does not identify whether the psychological mechanism is conscious or unconscious bias.",
+        "The 2024 Discrimination Report Card grades 97 employers using the underlying experiment; it is not a new experiment with 97 employers.",
+        "The slide's two application illustrations summarize the design; qualifications were experimentally varied rather than literally identical across all applications."
+      ]
+    },
+    {
+      "id": "training-experiment-2019",
+      "title": "The Mixed Effects of Online Diversity Training",
+      "publisher": "Edward H. Chang and colleagues / PNAS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6475398/",
+      "doi": "10.1073/pnas.1816076116",
+      "publishedAt": "2019",
+      "fieldwork": "Early 2017 intervention; behavioral follow-up up to 20 weeks",
+      "sample": { "participants": 3016, "invitedEmployees": 10983, "organizations": 1 },
+      "method": "Preregistered randomized field experiment among consenting volunteers. Gender-bias training, general-bias training, and active control focused on psychological safety and active listening.",
+      "caveats": [
+        "Attitude and behavioral effects varied by group; do not summarize as either universal success or training never works.",
+        "One organization and one brief voluntary intervention do not represent every training program.",
+        "Learn, rehearse, change the process, and check impact is a teaching suggestion, not a tested intervention package.",
+        "The captioned-call illustration is not a depiction of the study or its participants."
+      ]
+    },
+    {
+      "id": "catalyst-genuine-inclusion-2024",
+      "title": "Six Actions to Create Genuine DEI Policies",
+      "publisher": "Kathrina Robotham, Danielle Jackson, Tara Van Bommel / Catalyst",
+      "url": "https://www.catalyst.org/insights/2024/genuine-inclusion-policies",
+      "publishedAt": "2024-07-16",
+      "sample": { "respondents": 2572, "countries": 8, "population": "Full-time employees recruited through a panel service" },
+      "method": "Online survey and observational regression analyses of organizational characteristics and perceived policy genuineness.",
+      "dimensions": ["Fairness case", "Accountability", "Integrity", "Alignment", "Transparency", "Preventing a climate of silence"],
+      "caveats": [
+        "Associations, not a randomized evaluation of interventions.",
+        "The .52 R-squared is explained variance, not 52% of employees or a success rate.",
+        "Room to speak condenses preventing a climate of silence in the teaching diagram.",
+        "The ownership and feedback checklist is a teaching application, not a validated score or guaranteed outcome."
+      ]
+    },
+    {
+      "id": "right-to-be-5ds",
+      "title": "The 5Ds of Bystander Intervention",
+      "publisher": "Right To Be",
+      "url": "https://righttobe.org/guides/bystander-intervention-training/",
+      "options": ["Distract", "Delegate", "Document", "Delay", "Direct"],
+      "caveats": [
+        "A practical framework, not an effect-size estimate or a sequential escalation ladder.",
+        "Assess safety and follow the person harmed; direct confrontation is not always appropriate.",
+        "Before documenting, ensure someone is helping and assess safety. Never publish or use documentation without permission.",
+        "Delegation must consider the person's wishes; do not assume police involvement is wanted."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "img/disabled-and-here-conversation.jpg",
+      "title": "Outdoor group conversation",
+      "collection": "Disabled And Here",
+      "photographer": "Chona Kasinger",
+      "source": "https://affecttheverb.com/gallery/disabledandhere/outdoorgroupconvo/",
+      "download": "https://affecttheverb.com/images/stock/disabledandhere-002-5f478bad.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usage": "https://affecttheverb.com/usage/",
+      "changes": "None; displayed in full with object-fit contain."
+    },
+    {
+      "file": "img/disabled-and-here-booktalk.jpg",
+      "title": "Couch time book talk",
+      "collection": "Disabled And Here",
+      "photographer": "Gritchelle Fallesgon",
+      "source": "https://affecttheverb.com/gallery/disabledandhere/booktalkoncouch/",
+      "download": "https://affecttheverb.com/images/stock/dah-twm-17-b685ca97.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usage": "https://affecttheverb.com/usage/",
+      "changes": "None; displayed in full with object-fit contain."
+    },
+    {
+      "file": "img/disabled-and-here-coffee.jpg",
+      "title": "Disabled friends coffee chat",
+      "collection": "Disabled And Here",
+      "photographer": "Tojo Andrianarivo",
+      "source": "https://affecttheverb.com/gallery/disabledandhere/coffeechat/",
+      "download": "https://disabledandhere.files.wordpress.com/2019/06/disabledandhere-t03.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usage": "https://affecttheverb.com/usage/",
+      "changes": "None; displayed in full with object-fit contain."
+    },
+    {
+      "file": "img/disabled-and-here-videocall.png",
+      "title": "On a video call",
+      "collection": "Disabled And Here",
+      "creator": "Dana Chan",
+      "kind": "Illustration",
+      "source": "https://affecttheverb.com/gallery/disabledandhere/videocall/",
+      "download": "https://affecttheverb.com/images/stock/dc-videocall-dfa8cdd8.png",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usage": "https://affecttheverb.com/usage/",
+      "changes": "None; displayed in full with object-fit contain."
+    }
+  ]
+}

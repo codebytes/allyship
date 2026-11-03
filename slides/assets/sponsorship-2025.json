@@ -1,0 +1,19 @@
+{
+  "type": "bar",
+  "title": "Who has a sponsor?",
+  "description": "Women in the Workplace 2025: 31% of entry-level women and 45% of entry-level men report having a sponsor at work, a 14-percentage-point difference. A sponsor is someone other than their direct manager who advocates for career advancement or creates opportunities.",
+  "width": 800,
+  "height": 460,
+  "yLabel": "Employees (%)",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Entry-level employees (%)",
+    "color": "#82e4ce",
+    "values": [
+      { "label": "Women", "value": 31 },
+      { "label": "Men", "value": 45 }
+    ]
+  }]
+}

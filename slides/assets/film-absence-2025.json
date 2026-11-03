@@ -1,0 +1,20 @@
+{
+  "type": "bar",
+  "title": "Who is missing from the story?",
+  "description": "Among 100 top films of 2025, 78 had no LGBTQ+ speaking characters, 49 had no speaking characters with disabilities, and 81 had no girls or women with disabilities. Films and identity categories overlap; do not sum the counts.",
+  "width": 1100,
+  "height": 460,
+  "yLabel": "Films missing this group / 100",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Number of films",
+    "color": "#ffc2a3",
+    "values": [
+      { "label": "LGBTQ+ characters", "value": 78 },
+      { "label": "Disabled characters", "value": 49 },
+      { "label": "Disabled girls / women", "value": 81 }
+    ]
+  }]
+}

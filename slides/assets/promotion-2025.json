@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "title": "The first step up to manager",
+  "description": "Women in the Workplace 2025, using calendar-year 2024 promotions: normalized to 100 men promoted to manager, the report shows 93 women overall, 82 Asian women, 82 Latinas, and 60 Black women. These groups overlap: women overall includes the displayed subgroups. These are promotion-rate ratios, not percentages of all promotions.",
+  "width": 1100,
+  "height": 420,
+  "yLabel": "Men = 100",
+  "background": "#171d30",
+  "foreground": "#f4f3ee",
+  "grid": "#465169",
+  "series": [{
+    "name": "Promotion-rate index",
+    "color": "#82e4ce",
+    "values": [
+      { "label": "Men", "value": 100 },
+      { "label": "Women", "value": 93 },
+      { "label": "Asian women", "value": 82 },
+      { "label": "Latinas", "value": 82 },
+      { "label": "Black women", "value": 60 }
+    ]
+  }]
+}
