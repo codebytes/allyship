@@ -90,6 +90,9 @@ change the preview port, or `CHROME_PATH` to select a browser executable.
 scenario/debrief ordering, keyboard navigation, reduced motion, presenter mode,
 and print/no-JavaScript parity. Set `REVIEW_DIR` to save a screenshot of each slide during that run.
 GitHub Pages uses the same pinned build and checks before deploying.
+On the Ubuntu runner, `CHROME_PATH` selects the preinstalled Google Chrome for
+both PDF export and browser checks. Its packaged AppArmor profile allows
+sandboxed PDF export; downloaded Chromium can fail with `No usable sandbox`.
 
 ### Data and provenance
 
