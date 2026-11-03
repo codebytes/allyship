@@ -6,6 +6,10 @@ Explore allyship, privilege, unconscious bias, and covering, and how self-awaren
 
 [View HTML slides](https://chris-ayers.com/allyship/) | [Download PDF](https://chris-ayers.com/allyship/Slides.pdf)
 
+## Recordings
+
+- [Devoxx Greece 2023](https://www.youtube.com/watch?v=_zyQ8rLGpQQ)
+
 ## Resources
 
 - [Slide source](slides/Slides.md)
