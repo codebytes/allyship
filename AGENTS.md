@@ -4,30 +4,48 @@ This repository holds the slides for Chris Ayers' talk **Starting an Allyship Jo
 
 ## Repository layout
 
-- `slides/`: Marp deck, images in `slides/img/`, themes in `slides/themes/`.
+- `slides/Slides.md`: the Marp deck. Images are in `slides/img/`, themes in `slides/themes/`.
+- `slides/assets/`: data and scripted assets the deck loads.
+  - `allyship.js`: slide motion, loaded by the deck. It animates only the active slide in the audience view, and stops in presenter view, print, hidden tabs, and under `prefers-reduced-motion`.
+  - `*.json` + `*.svg` pairs: evidence charts. Each JSON file is the chart's data and source; the SVG is what the slide shows.
+  - `*.mmd` + `*.svg` pairs: Mermaid diagrams, committed pre-rendered so the deck needs no Mermaid runtime.
+  - `research-sources.json`: the sources behind the deck's statistics, with the date they were last reviewed.
+- `scripts/build.mjs`: renders `build/index.html` and `build/Slides.pdf` with Marp CLI and copies `img/`, `themes/`, and `assets/` into `build/`.
+- `scripts/render-evidence.mjs`: regenerates the bar-chart SVGs from their JSON files.
+- `scripts/preview.mjs`: serves `build/` locally.
+- `tests/slides.test.mjs`: checks chart values, provenance, and image credits against the data files, and drives the built deck in a browser to confirm next-only navigation and identical handouts.
+
+## Build and test
+
+Requires Node 22.20 or later. Marp CLI and Playwright are pinned in `package.json`.
+
+```bash
+npm ci
+npm run build                      # build/index.html and build/Slides.pdf
+npm run build:html                 # HTML only, faster
+npm test                           # builds the HTML, then runs tests/slides.test.mjs
+npm run preview                    # serve build/ locally
+node scripts/render-evidence.mjs   # after editing a chart's JSON data
+```
+
+The build and tests use the browser in `CHROME_PATH` when it is set, otherwise Playwright's Chromium (`npx playwright install chromium`), otherwise Google Chrome on macOS.
+
+`.github/workflows/marp-pages.yml` runs `npm ci`, `npm run build`, and `npm test`, then publishes `build/` to GitHub Pages. It sets `CHROME_PATH=/usr/bin/google-chrome` because the runner's packaged Chrome can export the PDF with its sandbox on; keep that rather than disabling the sandbox.
 
 ## Slides
 
-- Write the deck in Markdown with [Marp](https://marp.app/). `slides/Slides.md` is the source; `build/` is generated output and is never edited or committed.
-- Keep the frontmatter at the top of the deck:
-
-  ```yaml
-  ---
-  marp: true
-  theme: custom-default
-  ---
-  ```
-
-- Store themes in `slides/themes/` and images and diagram sources in `slides/img/`. Prefer theme classes and CSS variables over inline styles.
+- Write the deck in Markdown with [Marp](https://marp.app/). `build/` is generated output and is never edited or committed.
+- Keep the frontmatter at the top of the deck (`marp: true`, `theme: custom-default`).
 - Write speaker notes as HTML comments (`<!-- -->`).
-- Render locally with the Marp CLI version the Pages workflow uses (v4.5.0):
+- Prefer theme classes and CSS variables in `slides/themes/` over inline styles.
+- Keep motion in `slides/assets/allyship.js` and the theme: finite effects, no motion under `prefers-reduced-motion`, and every slide complete in the PDF.
 
-  ```bash
-  npx @marp-team/marp-cli@4.5.0 --theme-set slides/themes --html -o build/index.html -- slides/Slides.md
-  npx @marp-team/marp-cli@4.5.0 --theme-set slides/themes --html --pdf --allow-local-files -o build/Slides.pdf -- slides/Slides.md
-  ```
+## Evidence and sources
 
-- `.github/workflows/marp-pages.yml` builds the HTML deck and `Slides.pdf` and publishes both to GitHub Pages. If you add slide assets outside `slides/img/` and `slides/themes/`, add them to the workflow's copy step.
+- Every statistic on a slide comes from a data file in `slides/assets/` with its source. Change the data file, regenerate the SVG, and update `research-sources.json`; never edit a number only in the slide or the SVG.
+- Keep exact values, units, dates, and denominators as the source states them. `npm test` checks this.
+- Keep image credits on the slides that use them.
+- Keep the talk's tone and the cited sources intact when editing; attribute any new statistics or quotes with a link in the readme's Resources section.
 
 ## Shared skills
 
@@ -40,10 +58,6 @@ Use the shared skills from [codebytes/skills](https://github.com/codebytes/skill
 | Editable `.drawio.svg` diagrams (stored in `slides/img/`)                     | `drawio-diagrams`   |
 | Check overflow, clipping, and HTML/PDF parity before presenting or publishing | `marp-slide-review` |
 
-## Talk-specific rules
-
-- Keep the talk's tone and the cited sources intact when editing; attribute any new statistics or quotes with a link in the Resources section.
-
 ## Readme
 
 - Keep the readme sections in this order: Slides, Recordings, Resources, Contact.
@@ -53,4 +67,5 @@ Use the shared skills from [codebytes/skills](https://github.com/codebytes/skill
 ## General
 
 - Keep changes scoped to the request; don't reformat unrelated slides or code.
-- Never commit secrets, keys, or connection strings. Demo placeholders must be obviously fake.
+- Install packages from the public npm registry. `package-lock.json` must resolve to `registry.npmjs.org` so CI, Dependabot, and other machines can install it.
+- Never commit secrets, keys, or connection strings.
